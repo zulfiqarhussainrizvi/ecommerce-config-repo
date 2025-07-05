@@ -6,6 +6,10 @@ spring:
     url: jdbc:mysql://localhost:3306/orders_db
     username: root
     password: ironfish54#
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
 eureka:
   client:
