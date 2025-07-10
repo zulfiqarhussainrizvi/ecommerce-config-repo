@@ -7,7 +7,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/orders_db
     username: root
-    password: ironfish54#
+    password: "ironfish54#"
   jpa:
     hibernate:
       ddl-auto: update
