@@ -16,6 +16,10 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
   thymeleaf:
     cache: false
+  security:
+    user:
+      name: admin
+      password: admin123
 
 eureka:
   client:
