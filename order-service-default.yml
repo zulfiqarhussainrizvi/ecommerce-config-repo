@@ -8,6 +8,7 @@ spring:
     url: jdbc:mysql://localhost:3306/orders_db
     username: root
     password: "ironfish54#"
+    driver-class-name: com.mysql.cj.jdbc.Driver  # ✅ ADDED
   jpa:
     hibernate:
       ddl-auto: update
